@@ -1,0 +1,23 @@
+# :: Это пример использования однострочного комментария
+CONFIG:
+  # Константы
+  TIMEOUT: 30
+  # Массив значений
+  ENDPOINTS:
+    - "login"
+    - "register"
+    - "reset_password"
+  USERS:                  # Массив строк
+    - "admin"
+    - "user"
+    - "guest"
+  CREDENTIALS:            # Вложенный объект
+    USERNAME: "admin"
+    PASSWORD: "securepassword"
+  SETTINGS:
+    MODES: ["basic", "advanced", "expert"] # Массив строк
+    LIMITS: [100, 200, 300]                # Массив чисел
+  # Использование констант
+  CALCULATIONS:
+    VALUE: 100
+    RESULT: "|VALUE1 + VALUE2|"

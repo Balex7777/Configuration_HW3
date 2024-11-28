@@ -1,0 +1,17 @@
+CONFIG = {
+        TIMEOUT = 30;
+        ENDPOINTS = { q(login), q(register), q(reset_password) };
+        USERS = { q(admin), q(user), q(guest) };
+        CREDENTIALS = {
+            USERNAME = q(admin);
+            PASSWORD = q(securepassword);
+        };
+        SETTINGS = {
+            MODES = { q(basic), q(advanced), q(expert) };
+            LIMITS = { 100, 200, 300 };
+        };
+        CALCULATIONS = {
+            VALUE = 100;
+            RESULT = q(|VALUE1 + VALUE2|);
+        };
+    };
