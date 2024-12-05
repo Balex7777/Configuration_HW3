@@ -1,0 +1,22 @@
+# Веб-приложение
+APP:
+  NAME: "MyCoolApp"
+  VERSION: "1.2.3"
+  ENVIRONMENT: "production"
+DATABASE:
+  HOST: "db.mycoolapp.com"
+  PORT: 5432
+  NAME: "mycoolapp_db"
+  USERNAME: "admin"
+  PASSWORD: "secret"
+FEATURES:
+  - "authentication"
+  - "notifications"
+  - "reporting"
+LOGGING:
+  LEVEL: "info"
+  FILE: "/var/log/mycoolapp/app.log"
+KEYS:
+  MAPS: "AIza...YourKeyHere"
+  PAYMENT: "sk_test_...YourKeyHere"
+

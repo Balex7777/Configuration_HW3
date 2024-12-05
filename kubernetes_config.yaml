@@ -1,0 +1,23 @@
+# Kubernetes file
+APIVERSION: "apps/v1"
+KIND: "Deployment"
+METADATA:
+  NAME: "web-server"
+  LABELS:
+    APP: "web-server"
+SPEC:
+  REPLICAS: 3
+  SELECTOR: "web-server"
+  TEMPLATE:
+    METADATA:
+      LABELS:
+        APP: "web-server"
+    SPEC:
+      CONTAINERS:
+        NAME: "nginx"
+        IMAGE: "nginx:latest"
+        PORTS: 80
+        RESOURCES:
+          LIMITS:
+            MEMORY: "128Mi"
+            CPU: "500m"

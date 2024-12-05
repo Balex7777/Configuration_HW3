@@ -93,10 +93,11 @@ def convert_to_custom_language(data, comment, indent=4):
         raise ValueError("Корневой элемент YAML должен быть объектом (dict).")
 
     lines = []
+    if comment:
+        lines.append(f":: {comment[2:]}")
+
     for key, value in data.items():
         validate_name(key)
-        if comment:
-            lines.append(f":: {comment[2:]}")
         resolved_data = resolve_values(data)
         formatted_value = format_value(resolved_data[key], indent=indent + 4)
         lines.append(f"{key} = {formatted_value};\n")

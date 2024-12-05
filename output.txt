@@ -1,4 +1,4 @@
-:: Это пример использования однострочного комментария
+:: Это пример тестового yaml файла
 CONFIG = {
         TIMEOUT = 30;
         ENDPOINTS = { q(login), q(register), q(reset_password) };
