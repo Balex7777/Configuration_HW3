@@ -1,3 +1,4 @@
+:: Это пример использования однострочного комментария
 CONFIG = {
         TIMEOUT = 30;
         ENDPOINTS = { q(login), q(register), q(reset_password) };
@@ -12,6 +13,6 @@ CONFIG = {
         };
         CALCULATIONS = {
             VALUE = 100;
-            RESULT = q(|VALUE1 + VALUE2|);
+            RESULT = 130;
         };
     };

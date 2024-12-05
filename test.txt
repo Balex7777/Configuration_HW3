@@ -1,0 +1,1 @@
+{'CONFIG': {'TIMEOUT': 30, 'ENDPOINTS': ['login', 'register', 'reset_password'], 'USERS': ['admin', 'user', 'guest'], 'CREDENTIALS': {'USERNAME': 'admin', 'PASSWORD': 'securepassword'}, 'SETTINGS': {'MODES': ['basic', 'advanced', 'expert'], 'LIMITS': [100, 200, 300]}, 'CALCULATIONS': {'VALUE': 100, 'RESULT': '|VALUE + VALUE|'}}}
