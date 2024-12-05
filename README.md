@@ -60,8 +60,8 @@ pytest test
 ### Результат работы программы
 Исходный файл config.yaml
 
-![yaml](https://github.com/Balex7777/Configuration_HW3/blob/main/yaml.png)
+![yaml](https://github.com/Balex7777/Configuration_HW3/blob/main/images/yaml.png)
 
 Результат работы программы
 
-![output](https://github.com/Balex7777/Configuration_HW3/blob/main/output.png)
+![output](https://github.com/Balex7777/Configuration_HW3/blob/main/images/output.png)
